@@ -3,7 +3,7 @@ namespace: weather-dev
 image:
   repository: docker.io/temmaw/weather-app
   tag: dev
-
+  pullPolicy: Always
 ingress:
   enabled: true
   host: weather-dev.local

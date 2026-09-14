@@ -2,7 +2,7 @@ namespace: weather-prod
 
 image:
   repository: docker.io/temmaw/weather-app
-  tag: prod
+  tag: "bf7f93f21b3715a49f72412e6c89537857f8d8d6"
   pullPolicy: Always
 
 ingress:

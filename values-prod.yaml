@@ -5,6 +5,10 @@ image:
   tag: "1.0.1"
   pullPolicy: IfNotPresent
 
+database:
+  enabled: true
+  url: postgresql+asyncpg://postgres:${POSTGRES_PASSWORD}@my-release-postgresql.default.svc.cluster.local:5432/postgres
+
 ingress:
   enabled: true
   host: weather.example.com
